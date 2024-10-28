@@ -1,0 +1,70 @@
+{
+  "name": "firestarters-mrk1",
+  "version": "1.0.0",
+  "description": "",
+  "author": "SAP CXA",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve-local": "vue-cli-service serve --mode local",
+    "build-production": "vue-cli-service build --mode production",
+    "build-development": "vue-cli-service build --mode development",
+    "build-uat": "vue-cli-service build --mode uat",
+    "lint": "vue-cli-service lint",
+    "production": "vue-cli-service serve --mode production",
+    "sitemap": "vue-cli-service sitemap --mode production"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.6.0",
+    "cfenv": "^1.2.4",
+    "core-js": "^3.6.5",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "file-loader": "^6.2.0",
+    "file-saver": "^2.0.5",
+    "holderjs": "^2.9.9",
+    "jquery": "^3.6.0",
+    "moment-mini": "^2.29.4",
+    "path": "^0.12.7",
+    "popper.js": "^1.16.1",
+    "scrollreveal": "^4.0.9",
+    "vue": "^3.0.0",
+    "vue-cli-plugin-compression": "^2.0.0",
+    "vue-cli-plugin-sitemap-bk": "^2.3.1",
+    "vue-clipboard3": "^2.0.0",
+    "vue-cookie-accept-decline": "^6.1.0",
+    "vue-gtag": "^2.0.1",
+    "vue-image-zoomer": "^2.2.3",
+    "vue-json-excel3": "^1.0.19",
+    "vue-meta": "^3.0.0-alpha.10",
+    "vue-router": "^4.0.0-0",
+    "vue-scroll-loader": "^2.2.0",
+    "vue3-lazyload": "^0.3.6",
+    "vue3-storage": "^0.1.11",
+    "vue3-table-lite": "^1.2.5",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "eslint": "^8.27.0",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "html-loader": "^4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cxahub/firestarters-mrk1/issues"
+  },
+  "homepage": "https://github.com/cxahub/firestarters-mrk1#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxahub/firestarters-mrk1.git"
+  }
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /profile/
+Disallow: /reset-password/
+Disallow: /register/
+Disallow: /auth/
+Disallow: /reports/
+
+Sitemap: https://firestarters.cxahub.com/sitemap.xml

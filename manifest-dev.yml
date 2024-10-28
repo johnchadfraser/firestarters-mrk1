@@ -1,0 +1,15 @@
+applications:
+  - name: firestarters-mrk1
+    path: dist
+    routes:
+      - route: firestarters-dev.cxahub.com
+    buildpack: nginx_buildpack
+    memory: 1024M
+    services:
+      - cxahub-xsuaa
+      - cxahub-cron
+      - cxahub-psql-db
+      - cxahub-infra
+      - cxahub-logging
+    env:
+      NODE_ENV: development
