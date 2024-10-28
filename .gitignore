@@ -125,11 +125,11 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# _bak files
-*_bak*
+# ignore _bak files
+*_bak.* 
 
-# Photoshop
-*.psd
-
-# Documents
-*.pdf
+# env files
+*-prod.yml
+*-uat.yml
+*-dev.yml
+.env.*
